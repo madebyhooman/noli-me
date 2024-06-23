@@ -317,7 +317,7 @@ header{
     align-items: center;
     flex-direction: column;
 }
-.title{
+.main-title{
     text-shadow: #000 0 10px 10px;
     font-size: 3em;
     font-weight: bold;
@@ -325,7 +325,7 @@ header{
     color: #fff;
     padding-bottom: 20px;
 }
-.content{
+.significance .content{
     position: relative;
     width: 1150px;
     display: flex;
