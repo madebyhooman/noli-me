@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rizal</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 <body>
     <header>
@@ -282,7 +283,7 @@
                         Scene 4
                     </div>
                     <div class="description">
-                        Chapter 7
+                        Chapter 7 of "Noli Me Tangere"
                     </div>
                 </div>
             </div>
@@ -526,6 +527,40 @@
         <div class="time"></div>
     </div>
 
+    <div class="significance">
+        <div class="container">
+            <div class="title">
+                Significance of "Noli Me Tangere"
+            </div>
+            <div class="content">
+                <div class="image">
+                    <img src="image/nolime.jpg">
+                </div>
+                <div class="text-box">
+                    <p>
+                        "Noli Me Tangere" by José Rizal is a landmark novel in Philippine literature with profound social and political significance. Published in 1887, it serves as a sharp critique of Spanish colonial rule, exposing the abuses and corruption of the colonizers and clergy, and highlighting the social injustices faced by Filipinos.
+                        The novel played a crucial role in awakening Filipino nationalism, fostering a sense of unity and shared purpose among its readers. It inspired many Filipinos to fight for their rights and fueled the desire for independence, ultimately contributing to the Philippine Revolution of 1896.
+                        Beyond its political impact, "Noli Me Tangere" helped shape Filipino cultural identity by portraying the richness of Filipino traditions and values. It established José Rizal as a national hero and a literary icon, influencing subsequent generations of writers and intellectuals.
+                        For a deeper understanding, it is recommended to read "Noli Me Tangere" alongside its sequel, "El Filibusterismo," and to explore historical accounts of the Philippine Revolution to appreciate the broader impact of Rizal's work on Filipino history and identity.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
     <script src="app.js"></script>
+
+    <script>
+        ScrollReveal({
+            reset: true,
+            distance:'60px',
+            duration: 2500,
+            delay: 400
+        });
+        ScrollReveal().reveal('.title', { delay: 500, origin:'left' });
+        ScrollReveal().reveal('.image', { delay: 600, origin:'bottom' });
+        ScrollReveal().reveal('.text-box', { delay: 600, origin:'right' });
+    </script>
+    
 </body>
 </html>
